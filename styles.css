@@ -7,10 +7,18 @@ div {
 .main {
   width:300px;
   padding: 1em;
+  margin: 0 auto;
+  background-color: #003E51;
+  color: #587992;
 }
 
-div.infoBox {
+div.info-box {
   width: 300px;
+  color: #3C5B59
+}
+
+img {
+  border-radius: 10px;
 }
 
 .special {
@@ -18,11 +26,11 @@ div.infoBox {
   margin-top: 0;
 }
 
-.infoItem {
+.info-item {
   margin: 1em;
 }
 
-ul.infoList {
+ul.info-list {
   padding-left: 0;
 }
 
@@ -31,7 +39,7 @@ ul li {
   list-style-type: none;
 }
 
-span {
+.interest-fact-label {
   font-style: normal;
   font-weight: bold;
 }
